@@ -1,0 +1,17 @@
+
+# Passos para Rodar o Projeto Localmente
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seuusuario/loja-pranchas.git
+   cd loja-pranchas
+
+curl -X GET http://localhost:3000/api/boards
+
+### Instruções para Uso
+
+- Substitua `https://github.com/seuusuario/loja-pranchas.git` pela URL real do seu repositório no GitHub.
+- Você pode adicionar mais informações sobre a licença ou outros detalhes conforme necessário.
+
+Esse README fornece uma visão clara e concisa sobre o projeto, instruções para rodá-lo localmente e exemplos de uso das rotas, facilitando a compreensão e utilização por outros desenvolvedores.
