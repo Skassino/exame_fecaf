@@ -14,4 +14,15 @@ curl -X GET http://localhost:3000/api/boards
 - Substitua `https://github.com/seuusuario/loja-pranchas.git` pela URL real do seu repositório no GitHub.
 - Você pode adicionar mais informações sobre a licença ou outros detalhes conforme necessário.
 
+POST http://localhost:3000/api/boards
+Content-Type: application/json
+
+{
+    "quantity": 10,
+    "sizeFeet": 6,
+    "color": "blue"
+}
+
+GET http://localhost:3000/api/boards
+
 Esse README fornece uma visão clara e concisa sobre o projeto, instruções para rodá-lo localmente e exemplos de uso das rotas, facilitando a compreensão e utilização por outros desenvolvedores.
